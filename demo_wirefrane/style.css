@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Futura;
+    font-size: 1rem;
+    color: #000;
+}
+
+body {
+    max-width: 1312px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.top {
+    margin: 0 0 20px 0;
+    opacity: 0.5;
+}
+
+.bottom {
+    margin: 20px 0 0 0;
+    opacity: 0.5;
+}
+
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 115px;
+}
+
+.nav-bar {
+    align-self: center;
+}
+
+nav {
+    display: block;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 800;
+}
+
+nav ul li {
+    padding: 0 0 0 50px;
+    height: inherit;
+    text-align: center;
+}
+
+nav ul li a img {
+    display: block;
+    width: 20px;
+}
+
+nav ul li a img {
+    display: block;
+    width: 20px;
+}
+
+.user {
+    width: 22.5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: auto;
+    color: #000;
+}
+
+.s1 {
+    position: relative;
+    text-align: left;
+    display: block;
+    height: 545px;
+}
+
+.s1 img {
+    opacity: 0.3;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 12.5%;
+    transform: translate(-12.5%, -50%);
+    color: #000;
+}
+
+.banner-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.banner-text h1 b {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.s2 {
+    display: block;
+    background-color: #e2fee8;
+    text-align: center;
+    position: relative;
+}
+
+.s2 h1 {
+    padding: 60px 0;
+}
+
+.s2 .about-us {
+    font-weight: 400;
+}
+
+.s2 p {
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 0 0 25px 0;
+}
+
+.s2 .mission {
+    padding: 0 0 60px 0;
+}
+
+.s3 {
+    display: block;
+    text-align: center;
+}
+
+.s3 h1 {
+    padding: 60px 0 30px;
+}
+
+.s3 div {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 112.5px;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #4A6652;
+}
+
+.s3 div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.s3 .donate-text {
+    display: block;
+    margin: 0 auto;
+    max-width: 650px;
+    padding: 25px 0 60px 0;
+    font-size: 0.75rem;
+}
+
+footer {
+    background-color: #e2fee8;
+    padding: 100px 0 0 0 ;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-design {
+    display: block;
+    margin: auto 0;
+}
+
+.logo-design img {
+    width: 70px;
+    display: block;
+    margin: auto 70px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.quicklinks-1  a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+
+}
+
+.quicklinks-2 a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.quicklinks-1, .quicklinks-2 {
+    display: block;
+    padding: 0 60px 0 0;
+}
+
+.newsletter {
+    padding: 0 70px 0 0;
+}
+
+.newsletter legend {
+    font-weight: 800;
+}
+
+.newsletter form [type=email] {
+    font-family: Futura;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 7.5px 0 7.5px 15px;
+}
+
+.newsletter form [type=submit] {
+    font-family: Futura;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 7.5px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.copyright p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 70px 0 50px 0;
+}
+
+.contact-form h1,
+.supply-form h1 {
+    padding: 0 70px;
+    font-weight: 400;
+}
+
+.contact-form form {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    padding: 70px 0;
+
+}
+
+.contact-form form label, 
+.contact-form form input {
+    display: block;
+}
+
+.contact-form form input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 0.75px solid black;
+    margin: 5px 0 30px 0;
+    padding: 9px 0 9px 15px;
+}
+
+.contact-form form .message {
+    padding: 70px 0;
+}
+
+.contact-form form div {
+    display: flex;
+    justify-content: end;
+}
+
+.contact-form form input[type=submit] {
+    font-family: Futura;
+    width: 17%;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 0;
+    background-color: #000;
+    color: #fff;
+}
