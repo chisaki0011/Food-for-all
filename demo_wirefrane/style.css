@@ -171,7 +171,7 @@ nav ul li a {
 
 footer {
     background-color: #e2fee8;
-    padding: 100px 0 0 0 ;
+    padding: 100px 0 0 0;
 }
 
 .footer-container {
@@ -195,7 +195,7 @@ footer {
     justify-content: center;
 }
 
-.quicklinks-1  a {
+.quicklinks-1 a {
     display: block;
     text-decoration: none;
     color: #000;
@@ -210,7 +210,8 @@ footer {
     padding: 10px;
 }
 
-.quicklinks-1, .quicklinks-2 {
+.quicklinks-1,
+.quicklinks-2 {
     display: block;
     padding: 0 60px 0 0;
 }
@@ -254,6 +255,9 @@ footer {
     padding: 70px 0 50px 0;
 }
 
+
+
+/* Contact and Supply */
 .contact-form h1,
 .supply-form h1 {
     padding: 0 70px;
@@ -268,7 +272,7 @@ footer {
 
 }
 
-.contact-form form label, 
+.contact-form form label,
 .contact-form form input {
     display: block;
 }
@@ -299,4 +303,91 @@ footer {
     padding: 9px 0;
     background-color: #000;
     color: #fff;
+}
+
+/* Login */
+.login .login-box {
+    display: block;
+    margin: 10% auto 0 auto;
+    padding: 5% 1%;
+    width: 50%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgb(200, 200, 200);
+}
+
+.login .login-box h2 {
+    display: block;
+    padding: 0 0 0 10%;
+}
+
+.login .login-box p {
+    display: block;
+    padding: 0 0 5% 10%;
+}
+
+.apple_firebase {
+    display: block;
+    width: 80%; 
+    padding: 17.5px 10px;
+    margin: 0 auto 10px auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.google_firebase {
+    display: block;
+    width: 80%;
+    padding: 17.5px 10px;
+    margin: 0 auto 10px auto;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(220, 220, 220);
+}
+
+.facebook_firebase {
+    display: block;
+    width: 80%;
+    padding: 17.5px 10px;
+    margin: 0 auto 10px auto;
+    background-color: #19437e;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.normal_login {
+    display: block;
+    width: 80%;
+    padding: 17.5px 10px;
+    margin: 0 auto 10px auto;
+    background-color: #329e50;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.create_acc {
+    display: block;
+    width: 80%;
+    padding: 17.5px 10px;
+    margin: 10px auto 0 auto;
+    border: 1px solid #329e50;
+    color: #329e50;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.guest {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.guest a {
+    color: #000;
+    font-weight: 500;
 }
