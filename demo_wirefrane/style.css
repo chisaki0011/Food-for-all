@@ -102,12 +102,12 @@ nav ul li a {
 
 .banner-text h1 {
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .banner-text h1 b {
     font-size: 3rem;
-    font-weight: bolder;
+    font-weight: 800;
 }
 
 .s2 {
