@@ -391,3 +391,60 @@ footer {
     color: #000;
     font-weight: 500;
 }
+
+/* Sign Up */
+.signup .signup-box {
+    display: block;
+    margin: 10% auto 0 auto;
+    padding: 5% 1%;
+    width: 40%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgb(200, 200, 200);
+}
+
+.signup .signup-box h2 {
+    display: block;
+    padding: 0 0 0 10%;
+}
+
+.signup .signup-box p {
+    display: block;
+    padding: 0 0 5% 10%;
+}
+
+.signup .email_parent {
+    display: block;
+    width: 100%; 
+    padding: 0 10%;
+    color: #329e50;
+}
+
+.signup .password_parent {
+    display: block;
+    width: 100%; 
+    padding: 0 10%;
+    color: #329e50;
+    margin: 5% 0 10% 0;
+}
+
+.signup .submit_parent {
+    display: block;
+    width: 100%; 
+    padding: 0 10%;
+    color: #329e50;
+}
+
+.signup form input {
+    display: block;
+    width: 100%; 
+    border: #329e50 1px solid;
+    border-radius: 5px;
+    padding: 17.5px 10px;
+}
+
+.signup form input[type="submit"] {
+    background-color: #329e50;
+    color: #fff;
+}
+
