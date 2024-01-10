@@ -448,3 +448,89 @@ footer {
     color: #fff;
 }
 
+/* Login with Email */
+.email-login .email-login-box {
+    display: block;
+    margin: 10% auto 0 auto;
+    padding: 5% 1%;
+    width: 40%;
+    height: 80%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgb(200, 200, 200);
+}
+
+.email-login .email-login-box h2 {
+    display: block;
+    padding: 0 0 0 10%;
+}
+
+.email-login .email-login-box p {
+    display: block;
+    padding: 0 0 5% 10%;
+}
+
+.email-login .email_parent {
+    display: block;
+    width: 100%; 
+    padding: 0 10%;
+    color: #329e50;
+}
+
+.email-login .password_parent {
+    display: block;
+    width: 100%; 
+    padding: 0 10%;
+    color: #329e50;
+    margin: 5% 0 10% 0;
+}
+
+.email-login .password_parent .forgot_password {
+    color: #000;
+    font-size: 0.75rem;
+}
+
+.email-login .submit_parent {
+    display: block;
+    width: 100%; 
+    padding: 0 10%;
+    color: #329e50;
+}
+
+.email-login form input {
+    display: block;
+    width: 100%; 
+    border: #329e50 1px solid;
+    border-radius: 5px;
+    padding: 17.5px 10px;
+}
+
+.email-login form input[type="submit"] {
+    background-color: #329e50;
+    color: #fff;
+}
+
+/* Account Setting */
+.side_menu {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.account_setting h1 {
+    padding: 0 70px;
+}
+
+.account_setting .side_menu {
+    margin: 30px 0 0 0;
+}
+
+.account_parent .side_menu a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 15px 70px;
+}
+
+
+
+
