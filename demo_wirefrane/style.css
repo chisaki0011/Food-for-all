@@ -511,26 +511,54 @@ footer {
 
 /* Account Setting */
 .side_menu {
-    width: 30%;
+    width: 25%;
     height: 100%;
-    border-right: 1px solid rgb(0, 0, 0, 0.3);
 }
 
 .account_setting h1 {
     padding: 0 70px;
 }
 
-.account_setting .side_menu {
-    margin: 30px 0 0 0;
-}
-
 .account_parent .side_menu a {
     display: block;
     color: black;
     text-decoration: none;
-    padding: 15px 70px;
+    padding: 30px 0 10px 70px;
 }
 
+.account_parent {
+    display: flex;
+}
+
+.user_information {
+    border-left: 1px solid rgb(0, 0, 0, 0.3);
+}
+
+.personal_information {
+    display: block;
+    width: 100%;
+    margin: 100px;
+}
+
+.information_header {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.information_header h1 {
+    padding: 50px 70px;
+}
+
+.information_header p {
+    text-align: center;
+}
+
+.edit_button {
+    display: block;
+    margin: auto;
+}
 
 
 
