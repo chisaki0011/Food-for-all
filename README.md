@@ -3,7 +3,7 @@ From us to you
 
 # General Rules
 >> For every semantic tag, please comment
-(ie. <!- Header for homepage ->)
+(ie. <!--- Header for homepage --->)
 
 >> Every pull/push request needs to get through permission
 (unless downloaded locally without affecting the repository)
